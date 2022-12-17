@@ -1,0 +1,1 @@
+void UATR_R_Init(void);

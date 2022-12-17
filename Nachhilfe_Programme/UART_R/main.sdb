@@ -1,0 +1,152 @@
+[p GLOBOPT AUTOSTATIC LFSROK ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F25K22 ]
+[d frameptr 4065 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"5 E:\MCON_Nachhilfe\LABs\UART_R\src\lib.c
+[v ___init __init `(v  1 e 1 0 ]
+"15 E:\MCON_Nachhilfe\LABs\UART_R\src\main.c
+[v _main main `(v  1 e 1 0 ]
+"29
+[v _high_isr high_isr `IIH(v  1 e 1 0 ]
+"5 E:\MCON_Nachhilfe\LABs\UART_R\src\UART_R.c
+[v _UATR_R_Init UATR_R_Init `(v  1 e 1 0 ]
+"7245 C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic18f25k22.h
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"7581
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S51 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"10285
+[s S60 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S69 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[u S73 . 1 `S51 1 . 1 0 `S60 1 . 1 0 `S69 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES73  1 e 1 @4012 ]
+"10458
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"10536
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+[s S100 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 CKTXP 1 0 :1:4 
+`uc 1 DTRXP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"12132
+[s S109 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+]
+[s S112 . 1 `uc 1 ABDEN1 1 0 :1:0 
+`uc 1 WUE1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG161 1 0 :1:3 
+`uc 1 SCKP1 1 0 :1:4 
+`uc 1 DTRXP1 1 0 :1:5 
+`uc 1 RCIDL1 1 0 :1:6 
+`uc 1 ABDOVF1 1 0 :1:7 
+]
+[s S121 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S126 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP1 1 0 :1:4 
+`uc 1 RXDTP1 1 0 :1:5 
+`uc 1 RCMT1 1 0 :1:6 
+]
+[s S131 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S134 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S137 . 1 `S100 1 . 1 0 `S109 1 . 1 0 `S112 1 . 1 0 `S121 1 . 1 0 `S126 1 . 1 0 `S131 1 . 1 0 `S134 1 . 1 0 ]
+[v _BAUD1CONbits BAUD1CONbits `VES137  1 e 1 @4024 ]
+"15216
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"17299
+[v _CREN1 CREN1 `VEb  1 e 0 @32092 ]
+"17587
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"17836
+[v _LATA0 LATA0 `VEb  1 e 0 @31816 ]
+"18367
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"18469
+[v _RC1IE RC1IE `VEb  1 e 0 @31981 ]
+"18472
+[v _RC1IF RC1IF `VEb  1 e 0 @31989 ]
+"18754
+[v _SPEN1 SPEN1 `VEb  1 e 0 @32095 ]
+"19042
+[v _SYNC1 SYNC1 `VEb  1 e 0 @32100 ]
+"19519
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"19522
+[v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
+"13 E:\MCON_Nachhilfe\LABs\UART_R\src\main.c
+[v _Data Data `uc  1 e 1 0 ]
+"15
+[v _main main `(v  1 e 1 0 ]
+{
+"27
+} 0
+"5 E:\MCON_Nachhilfe\LABs\UART_R\src\lib.c
+[v ___init __init `(v  1 e 1 0 ]
+{
+"13
+} 0
+"5 E:\MCON_Nachhilfe\LABs\UART_R\src\UART_R.c
+[v _UATR_R_Init UATR_R_Init `(v  1 e 1 0 ]
+{
+"25
+} 0
+"29 E:\MCON_Nachhilfe\LABs\UART_R\src\main.c
+[v _high_isr high_isr `IIH(v  1 e 1 0 ]
+{
+"39
+} 0

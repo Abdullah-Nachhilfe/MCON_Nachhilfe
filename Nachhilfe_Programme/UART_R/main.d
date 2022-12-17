@@ -1,0 +1,1 @@
+ main.d  main.p1:  src/main.c src/../headers/config.h src/../headers/lib.h src/../headers/UART_R.h

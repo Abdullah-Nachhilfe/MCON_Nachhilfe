@@ -1,0 +1,1 @@
+ lib.d  lib.p1:  src/lib.c
