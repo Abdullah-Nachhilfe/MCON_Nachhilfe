@@ -1,0 +1,66 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"23 uCQ_config.c
+[p x FOSC  =  INTIO7     ]
+"25
+[p x PLLCFG  =  OFF      ]
+"26
+[p x PRICLKEN  =  ON     ]
+"27
+[p x FCMEN  =  OFF       ]
+"28
+[p x IESO  =  OFF        ]
+"34
+[p x PWRTEN  =  ON ]
+"36
+[p x BOREN  =  OFF       ]
+"37
+[p x BORV  =  190        ]
+"40
+[p x WDTEN  =  OFF       ]
+"41
+[p x WDTPS  =  32768     ]
+"44
+[p x CCP2MX  =  PORTC1   ]
+"45
+[p x PBADEN  =  OFF      ]
+"46
+[p x CCP3MX  =  PORTB5   ]
+"47
+[p x HFOFST  =  ON       ]
+"48
+[p x T3CMX  =  PORTC0    ]
+"49
+[p x P2BMX  =  PORTB5    ]
+"53
+[p x MCLRE  =  INTMCLR ]
+"57
+[p x STVREN  =  ON       ]
+"58
+[p x LVP  =  OFF         ]
+"59
+[p x XINST  =  OFF       ]
+"62
+[p x CP0  =  OFF         ]
+"63
+[p x CP1  =  OFF ]
+"70
+[p x CPB  =  OFF         ]
+"71
+[p x CPD  =  OFF         ]
+"74
+[p x WRT0  =  OFF        ]
+"75
+[p x WRT1  =  OFF ]
+"82
+[p x WRTC  =  OFF        ]
+"83
+[p x WRTB  =  OFF        ]
+"84
+[p x WRTD  =  OFF        ]
+"87
+[p x EBTR0  =  OFF       ]
+"88
+[p x EBTR1  =  OFF ]
+"95
+[; ;uCQ_config.c: 95: 
+[p x EBTRB  =  OFF       ]
